@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TarefasApi", "TarefasApi.csproj", "{E5A31D14-1314-4CE2-894A-88399EE043C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F62D958-B826-4AB2-ABD6-78BE6550B9F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B1ADC783-92E6-4FBB-8014-0A7DEA301995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasConsumer", "..\TarefasConsumer\TarefasConsumer.csproj", "{5B67A664-B259-4471-82AE-978DE15ABC0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A31D14-1314-4CE2-894A-88399EE043C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A31D14-1314-4CE2-894A-88399EE043C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A31D14-1314-4CE2-894A-88399EE043C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A31D14-1314-4CE2-894A-88399EE043C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B67A664-B259-4471-82AE-978DE15ABC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B67A664-B259-4471-82AE-978DE15ABC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B67A664-B259-4471-82AE-978DE15ABC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B67A664-B259-4471-82AE-978DE15ABC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5A31D14-1314-4CE2-894A-88399EE043C9} = {9F62D958-B826-4AB2-ABD6-78BE6550B9F6}
+		{5B67A664-B259-4471-82AE-978DE15ABC0D} = {9F62D958-B826-4AB2-ABD6-78BE6550B9F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D30D8791-98AB-4487-BB3E-342B4F37AB29}
+	EndGlobalSection
+EndGlobal
